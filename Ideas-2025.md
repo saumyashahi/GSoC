@@ -4,7 +4,7 @@
 * [Git backend for Turtle Blocks and Music Blocks](#Git-backend-for-Turtle-Blocks-and-Music-Blocks)
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
-* [Improve synth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
+* [Improve synth and sample features in Music Blocks](#Improve-synth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
 * [Music Blocks 4 Program Engine](#Music-Blocks-4-Program-Engine)
@@ -32,7 +32,7 @@ Portfolio creation, reflection, and collaboration are important parts of the edu
 
 At Sugar Labs, [we've created some initial designs](https://drive.google.com/file/d/15G0vtr-1JyzCorwmgjvXE-37vwZMLgJD/view?usp=sharing) for a couple approaches to introducing Git version control to young learners. This proposal focuses on introducing Git version control through our existing web-based programs, namely Turtle Blocks and Music Blocks. Both these programs have a feature to publish projects to a server called the "Planet". Currently the Planet just stores projects that users have made, without any sort of version control features like *fork*, *history*, or *checkout*.
 
-This project requires a contributor to work closely with Sugar Labs mentors to implement a system of Git version control features, runing on a backend server, that are exposed to the user.
+This project requires a contributor to work closely with Sugar Labs mentors to implement a system of Git version control features, runinig on a backend server, that are exposed to the user.
 
 **Project Length**<br>
 
@@ -56,7 +56,7 @@ This project requires a contributor to work closely with Sugar Labs mentors to i
 **Description**<br>
 Music Blocks has a feature to detect the color of pixels generated from drawing within the program, but it cannot detect the color of pixels from images that are either uploaded or from a webcam. By adding a feature to detect color from both uploaded images and a live webcam stream, users would be able to implement *Lego music notation for the blind* and similarly interactive programs.
 
-The goal of the project is to develop extended functionality to our exisiting tools of turtle/mouse glyph movement and limited color detection to sense color from uploaded images, as well as the real-time feed from a webcam. Upon successful implementation, the turtle/mouse glyph will be able to detect the color of pixels underneath it, regarless of whether those pixels were drawn by the turtle/mouse itself, part of an uploaded image stamped to the canvas, or part of a live webcam video feed into Music Blocks. One test of success is to run our *Lego music notation for the blind* project with a live feed. The result should be able to playback and record the abstract brick notation based on its contrasting colors.
+The goal of the project is to develop extended functionality to our existing tools of turtle/mouse glyph movement and limited color detection to sense color from uploaded images, as well as the real-time feed from a webcam. Upon successful implementation, the turtle/mouse glyph will be able to detect the color of pixels underneath it, regardless of whether those pixels were drawn by the turtle/mouse itself, part of an uploaded image stamped to the canvas, or part of a live webcam video feed into Music Blocks. One test of success is to run our *Lego music notation for the blind* project with a live feed. The result should be able to playback and record the abstract brick notation based on its contrasting colors.
 
 **Project Length**<br>
 
@@ -357,7 +357,7 @@ and a technical specification.
 
 **Description**<br>
 
-Sugar pioneered peer editing in its Write activiy. However, the Write
+Sugar pioneered peer editing in its Write activity. However, the Write
 Activity has never had any serious support for grammar correction
 (just spell check) and none of the more recent developments around
 AI-assisted writing. The goal of this project is to add AI-assistance
@@ -469,7 +469,7 @@ explaining to a young child.
 **Description**<br>
 
 Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to
-port Sugar and it's core activities to support GTK4 before GTK3 gets
+port Sugar and its core activities to support GTK4 before GTK3 gets
 to its EOL.
 
 **Project Task Checklist**
